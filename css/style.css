@@ -1,0 +1,46 @@
+/***GENERAL****/
+
+
+/***HEADER****/
+
+h1  {
+    
+    text-align: center;
+    color: red;
+    background: #47fa0c;
+    border: 2px solid grey; 
+    border-radius: 10px;
+    font-family: 'Electrolize', sans-serif;
+    
+        
+}
+
+/***NAVIGATION MENU****/
+#selected{
+    border: 2px solid blue;
+}
+
+.navigation-items{
+    text-align: center;
+    
+}
+
+.navigation-items li{
+    display: inline-block;
+    padding: 0 10% 0 ;
+}
+.navigation-items a{
+    color: #47fa0c;    
+}
+.navigation-items a:hover{
+    color: red;
+}
+
+
+
+
+/***BODY****/
+
+body{
+    background-color: #000;
+}
