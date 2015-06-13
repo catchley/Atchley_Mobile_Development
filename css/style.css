@@ -30,7 +30,7 @@ h1  {
     padding: 0 10% 0 ;
 }
 .navigation-items a{
-    color: #47fa0c;    
+    color: #000;    
 }
 .navigation-items a:hover{
     color: red;
@@ -42,5 +42,85 @@ h1  {
 /***BODY****/
 
 body{
-    background-color: #000;
+    background-color: #33f2f2;
 }
+
+/*******TABLE********/
+
+table {
+  max-width: 960px;
+  margin: 10px auto;
+}
+
+caption {
+  font-size: 1.6em;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+thead th {
+  font-weight: 400;
+  background: #8a97a0;
+  color: #FFF;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+
+th, td {
+  text-align: center;
+  padding: 30px;
+  font-weight: 300;
+    
+}
+
+tfoot tr {
+  background: none;
+}
+
+tfoot td {
+  padding: 10px 2px;
+  font-size: 0.8em;
+  font-style: italic;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
