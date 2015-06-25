@@ -2,8 +2,12 @@
 
 
 /***HEADER****/
+.mainTitleHeader{
+    text-align: center;
+    
+}
 
-h1  {
+.mainTitle  {
     
     text-align: center;
     color: red;
@@ -11,9 +15,10 @@ h1  {
     border: 2px solid grey; 
     border-radius: 10px;
     font-family: 'Electrolize', sans-serif;
-    
-        
+    text-decoration: none;
+            
 }
+
 
 /***NAVIGATION MENU****/
 #selected{
