@@ -2,6 +2,10 @@
 
 
 /***HEADER****/
+.mainTitleHeader{
+    text-align: center;
+    
+}
 
 .mainTitle  {
     
@@ -12,9 +16,10 @@
     border: 2px solid grey; 
     border-radius: 10px;
     font-family: 'Electrolize', sans-serif;
-    
-        
+    text-decoration: none;
+            
 }
+
 
 /***NAVIGATION MENU****/
 #selected{
