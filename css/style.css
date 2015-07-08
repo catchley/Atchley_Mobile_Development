@@ -1,5 +1,7 @@
 /***GENERAL****/
-
+p{
+    color: white;
+}
 
 /***HEADER****/
 .mainTitleHeader{
@@ -11,13 +13,16 @@
     
     text-align: center;
     font-size: 40px;
-    color: red;
-    background: #47fa0c;
+    color: black;
+    background: red;
     border: 2px solid grey; 
+    padding: 6px;
     border-radius: 10px;
     font-family: 'Electrolize', sans-serif;
     text-decoration: none;
-            
+    
+    text-shadow: -4px -4px 7px yellow;
+    
 }
 
 
@@ -36,7 +41,7 @@
     padding: 0 10% 0 ;
 }
 .navigation-items a{
-    color: #000;    
+    color: #fff;    
 }
 .navigation-items a:hover{
     color: red;
@@ -48,7 +53,9 @@
 /***BODY****/
 
 body{
-    background-color: #33f2f2;
+    background-color: #000;
+    
+    
 }
 
 /*******TABLE********/
@@ -65,27 +72,30 @@ caption {
     font-weight: 400;
     padding: 10px 0;
     border: solid black 3px;
+    background-image: radial-gradient(circle at  left,red 0%, yellow 160%);
     
 }
 
 thead th {
-  font-weight: 400;
-  background: #8a97a0;
-  color: #FFF;
+  font-weight: 900;
+  background: darkorange;
+  color: black;
 }
 
 tr {
-  background: #f4f7f8;
+  
   border-bottom: 1px solid #FFF;
   margin-bottom: 5px;
 }
 
 
 th, td {
+    font-weight: bold;
     text-align: center;
     padding: 30px;
-    font-weight: 300;
-    border: solid white 3px;
+    font-weight: 800;
+    border: solid firebrick 3px;
+    background-color: yellow;
     
 }
 
@@ -98,6 +108,7 @@ tfoot td {
   font-size: 0.8em;
   font-style: italic;
   color: #000;
+    
 }
 
 /***VIDEO****/
@@ -111,14 +122,29 @@ video, audio, .mejs-treehouse {
 .video_head{
     text-align: center;
     font-size: 20px;
+    color: black;
 }
 
 /***Image Gallery****/
 
 .appDiv{
-    border: groove blue 20px;
+    border: groove firebrick 20px;
     margin: 20px;
+    text-align: center;
+    background-image: radial-gradient(circle at bottom left,red 0%, yellow 160%);
+    background-size: cover;
+    color: white;
 }
+
+.googlePlayLink{
+    color: navy;
+    font-size: 20px;
+}
+
+.googlePlayLink a:visited{
+    color: navy;
+}
+
 
 #imageGallery{
     list-style: none;
